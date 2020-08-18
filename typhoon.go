@@ -2,12 +2,13 @@ package typhoon
 
 import (
 	"bufio"
-	uuid "github.com/TyphoonMC/go.uuid"
 	"log"
 	"math/rand"
 	"net"
 	"reflect"
 	"time"
+
+	uuid "github.com/TyphoonMC/go.uuid"
 )
 
 type Core struct {
@@ -129,7 +130,7 @@ func (c *Core) handleConnection(conn net.Conn, id int) {
 			0,
 		},
 		name:         "",
-		uuid:         uuid.FromStringOrNil("d979912c-bb24-4f23-a6ac-c32985a1e5d3"),
+		uuid:         uuid.FromStringOrNil("c1b9f9bd-4907-4be4-8848-959ec9a97ccf"),
 		keepalive:    0,
 		compression:  false,
 		packetsQueue: make(chan Packet),
