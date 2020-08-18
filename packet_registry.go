@@ -35,7 +35,6 @@ func initPackets() {
 func (player *Player) HandlePacket(id int, length int) (packet Packet, err error) {
 	typ := packets[PacketTypeHash(player.state, id)]
 
-	log.Printf("%d -> Test %d \n", player.id, typ)
 	if typ == nil {
 		if config.Logs {
 			log.Printf("%d -> Unknown packet #%d\n", player.id, id)
