@@ -130,7 +130,7 @@ func (c *Core) handleConnection(conn net.Conn, id int) {
 			0,
 		},
 		name:         "",
-		uuid:         uuid.FromStringOrNil("c1b9f9bd-4907-4be4-8848-959ec9a97ccf"),
+		uuid:         uuid.FromStringOrNil("7065bc74-dfef-475a-a424-d3ab355fcd4a"),
 		keepalive:    0,
 		compression:  false,
 		packetsQueue: make(chan Packet),
